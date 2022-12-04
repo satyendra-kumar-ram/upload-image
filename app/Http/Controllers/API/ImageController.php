@@ -106,7 +106,7 @@ class ImageController extends BaseController
             $file = $request->file('image');
             $fileName = $file->getClientOriginalName();
             $filePath = $file->storeAs('uploads', $fileName, 'public');
-            $imagePath = public_path('storage/public/'.$fileName);
+           return  $imagePath = public_path('storage/'.$fileName);
             if(File::exists($imagePath)){
                 unlink($imagePath);
             }

@@ -134,7 +134,7 @@
 						{
 							"key": "image",
 							"type": "file",
-							"src": "/home/rajkumar/Downloads/crossover-cca-result.png"
+							"src": "/home/rajkumar/Downloads/rules-codility.com.png"
 						}
 					]
 				},
@@ -214,6 +214,27 @@
 						"api",
 						"images",
 						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Image",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/images/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"images",
+						"6"
 					]
 				}
 			},
